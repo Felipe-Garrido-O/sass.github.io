@@ -1,0 +1,14 @@
+@mixin feature ($bgcolor, $color, $fuente){
+    background-color: $bgcolor;
+    color: $color;
+    font-size: $fuente;  
+}
+
+@mixin parrafo ($fuente, $ancho, $texto, $padd){
+    font-size: $fuente;
+    width: $ancho;
+    text-align: $texto;
+    padding: $padd;  
+
+}
+    
